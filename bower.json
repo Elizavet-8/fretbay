@@ -1,0 +1,26 @@
+{
+  "name": "site",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.2"
+  },
+  "overrides": {
+    "bootstrap": {
+        "main": [
+            "./dist/js/bootstrap.min.js",
+            "./dist/css/bootstrap.min.css"
+            ]
+    }
+  }
+}
